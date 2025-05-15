@@ -4,20 +4,42 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&family=Roboto:ital@0;1&family=Sarabun:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yoga Classes</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
+    <!--Header-->
+    <load src="./partials/header.html" />
     <main>
       <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+      <load src="./partials/heading.html" />
+      <load src="./partials/programs.html" />
+      <load src="./partials/team.html" />
+      <load src="./partials/gallery.html" />
+      <load src="./partials/yoga-helps.html" />
+      <load src="./partials/testimonials.html" />
+      <load src="./partials/pricing.html" />
     </main>
-
+    <!--Footer-->
     <load src="./partials/footer.html" />
 
+    <!--Modals form-->
+    <load src="./partials/modal-form-10.html" />
+    <load src="./partials/modal-form-65.html" />
+    <load src="./partials/modal-form-80.html" />
+
+    <!--Navbar-->
+    <load src="./partials/navbar.html" />
+
+    <!--Scripts-->
     <script type="module" src="./main.js"></script>
   </body>
 </html>

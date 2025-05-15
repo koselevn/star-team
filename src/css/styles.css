@@ -6,13 +6,22 @@
 */
 /* Common styles */
 @import url('./reset.css');
+@import url('./animation.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./heading.css');
+@import url('./programs.css');
+@import url('./team.css');
+@import url('./gallery.css');
+@import url('./yoga-helps.css');
+@import url('./testimonials.css');
+@import url('./pricing.css');
 @import url('./footer.css');
+
+/* Modals style */
+@import url('./modal-form.css');
+/* Navbar */
+@import url('./navbar.css');
