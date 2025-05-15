@@ -1,0 +1,126 @@
+.pricing {
+  padding: 64px 0;
+}
+.pricing-tagline {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.pricing-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pricing-descr {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  line-height: 160%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.pricing-plan-item {
+  background-color: #dfebeb;
+  border: 0px solid rgba(13, 11, 10, 0.15);
+  border-radius: 16px;
+  padding: 32px 24px;
+  width: 343px;
+}
+.pricing-plan-item .title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.pricing-plan-item .price {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.pricing-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 8px 0;
+  margin-bottom: 32px;
+}
+.pricing-list-item {
+  display: flex;
+  gap: 16px;
+}
+.pricing-list-item-descr {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.pricing-butn {
+  display: block;
+  background-color: #c2d9fc;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 100%;
+  height: 46px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 1342px) {
+  .pricing {
+    padding: 112px 0;
+    margin-bottom: 16px;
+  }
+  .pricing-title {
+    font-size: 52px;
+    margin-bottom: 24px;
+  }
+  .pricing-descr {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .pricing-plan {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 24px;
+  }
+  .pricing-plan-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+    width: calc((100% - 48px) / 3);
+  }
+  .pricing-plan-item .title {
+    font-size: 22px;
+  }
+  .pricing-plan-item .price {
+    font-size: 72px;
+    margin-bottom: 32px;
+  }
+  .pricing-list {
+    margin-bottom: 0;
+  }
+}
