@@ -1,0 +1,90 @@
+.container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    background-color: #DFEBEB;
+    margin-bottom: 12px;
+}
+
+.subheader {
+    font-family: "Cabin", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+    max-width: 343px;
+}
+
+.text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.program-image {
+    border-radius: 16px;
+    width: 343px;
+    height: 198px;
+    margin-bottom: 24px;
+}
+
+.program-image-2 {
+    border-radius: 16px;
+    width: 343px;
+    height: 198px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.program-image-3 {
+    border-radius: 16px;
+    width: 343px;
+    height: 198px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.program-title {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    max-width: 343px;
+    margin-bottom: 20px;
+}
+
+.program-text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.join-btn {
+    border: 1px solid #C2D9FC;
+    background-color: #C2D9FC;
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 343px;
+    height: 46px;
+    margin-top: 48px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.join-btn:hover {}
