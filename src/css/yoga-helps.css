@@ -105,8 +105,7 @@
 
     .yoga-list-item {
         width: calc((100% - 24px) / 2);
-        column-gap: 46.5px;
-        gap: 24px;
+        
     }
        
     .yoga-join-link {
@@ -128,8 +127,8 @@
 
     .yoga-bonuses-list {
         flex-direction: row;
-        gap: 24 px;
-        flex-wrap: nowrap;}
+        gap: 24px;
+        }
     
     .yoga-heading-three {
         margin-bottom: 24px;
@@ -137,5 +136,5 @@
     }
         
     .yoga-list-item {
-                width: calc((100% - 72px) / 3);}
+        width: calc((100% - 72px) / 4);}
 }
