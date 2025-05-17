@@ -74,17 +74,17 @@
 
 
 .gallery-item {
-    max-width: calc((100% - 24px)/2);
+    flex-basis: calc((100% - 24px) / 2);
     border-radius: 16px;
 }
 
 @media (min-width: 768px) {
     .gallery-item {
-    max-width: calc((100% - 24px)/2);    
+    flex-basis: calc((100% - 24px) / 2);    
 }
 }
 @media (min-width: 1336px) {
     .gallery-item {
-    max-width: calc((100% - 48px)/3);
+        flex-basis: calc((100% - 48px) / 3);
     }
 }
