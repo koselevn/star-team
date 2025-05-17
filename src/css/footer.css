@@ -1,0 +1,61 @@
+.footer-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #DFEBEB;
+}
+
+.footer-container {
+    background-color: #F8FBFE;
+    border-radius: 16px;
+    padding: 32px;
+    width: 100%;
+}
+
+/* .container {}
+ */
+
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.footer-logo-icon {}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form-label {
+    font-family: "Saraboon", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.footer-form-input {}
+
+.footer-button {
+    font-family: "Saraboon", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.6;
+}
+
+.footer-nav {}
+
+.footer-nav-heading {}
+
+.footer-nav-list {}
+
+.footer-nav-item {}
+
+.footer-social {}
+
+.footer-social-heading {}
+
+.footer-social-list {}
+
+.footer-social-item {}
+
+.footer-copyright {}
