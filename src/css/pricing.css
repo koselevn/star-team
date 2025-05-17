@@ -22,7 +22,6 @@
   font-family: 'Sarabun', sans-serif;
   font-weight: 400;
   font-size: 16px;
-
   line-height: 160%;
   text-align: center;
   margin-bottom: 48px;
@@ -86,23 +85,55 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .pricing {
+    padding: 40px 0;
+  }
+  .pricing-tagline {
+    margin-bottom: 16px;
+  }
+  .pricing-title {
+    margin-bottom: 24px;
+  }
+  .pricing-descr {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+  .pricing-plan {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 24px;
+  }
+  .pricing-plan-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1342px) {
+  /* .pricing-plan-item:nth-child(3) .pricing-list {
+    order: 2;
+  }
+  .pricing-plan-item:nth-child(3) .pricing-butn {
+    order: 1;
+  } */
 }
 
 @media only screen and (min-width: 1342px) {
   .pricing {
     padding: 112px 0;
-    margin-bottom: 16px;
   }
   .pricing-title {
     font-size: 52px;
-    margin-bottom: 24px;
   }
   .pricing-descr {
-    font-size: 18px;
     margin-bottom: 40px;
   }
   .pricing-plan {
     flex-direction: row;
+    flex-wrap: nowrap;
     align-items: stretch;
     gap: 24px;
   }
