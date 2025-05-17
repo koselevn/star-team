@@ -1,0 +1,111 @@
+.testimonials {
+  padding: 64px 0;
+  background-color: #fefdf0;
+}
+.testimonials__title {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials__title > h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.testimonials__title > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #0d0b0a;
+  margin-top: 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.testimonial-card {
+  border-radius: 24px;
+  padding: 12px;
+  background-color: #f2f7fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.testimonial-card > p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.testimonial-card-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-card-author-photo {
+  border-radius: 100%;
+  margin-top: 32px;
+}
+
+.testimonial-person-information {
+  margin-top: 16px;
+}
+
+.testimonial-person-information > h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+.testimonial-person-information > p {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #0d0b0a;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    padding: 40px 0;
+  }
+  .testimonials__title > p {
+    margin-top: 24px;
+  }
+  .testimonial-card {
+    padding: 29.5px 12px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .testimonials {
+    padding: 112px 0;
+  }
+  .testimonial-card {
+    max-width: 644px;
+    padding: 12px;
+  }
+}
