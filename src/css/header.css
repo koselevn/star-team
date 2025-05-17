@@ -1,0 +1,90 @@
+.header-section {}
+
+.header-container {
+    display: flex;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list-adn-logo-div {
+    display: flex;
+    gap: 221px;
+}
+
+.header-list {
+    display: none;
+}
+
+.heaer-logo-svg {}
+
+.header-btn-1 {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+
+    border: 1px solid #c2d9fc;
+    background: #c2d9fc;
+    border-radius: 100px;
+    padding: 4px 22px;
+}
+
+.header-btn-2 {
+    display: none;
+
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+
+    border: 1px solid #c2d9fc;
+    background: #c2d9fc;
+    border-radius: 100px;
+    padding: 8px 20px;
+}
+
+@media (min-width: 768px) {
+    .header-btn-1 {
+        display: none;
+    }
+    .header-btn-2 {
+        display: block;   
+    }
+}
+
+@media (min-width: 1336px) {
+    .header-menu-svg {   
+        display: none;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 32px;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-list-li-a-first::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid rgba(13, 11, 10, 0.5);
+        width: 100%;
+    }
+    
+    .header-list-li {
+        font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        color: #0d0b0a;
+    }
+    
+    .header-list-li-a {}
+}
