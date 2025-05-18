@@ -1,0 +1,276 @@
+.footer-content {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #DFEBEB;
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+            padding-top: 40px;
+            padding-bottom: 40px;
+}
+
+@media (min-width: 1336px) {
+    .footer-content {
+        padding-top: 64px;
+        padding-bottom: 64px;
+}
+}
+
+}
+.footer-container {
+    background-color: #F8FBFE;
+    border-radius: 16px;
+    padding: 32px;
+    }
+
+@media (min-width: 768px) {
+    .footer-container {
+    padding: 40px 32px;   
+}
+}
+
+@media (min-width: 1336px) {
+    .footer-container {
+        padding: 48px; 
+}
+}
+
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+.footer-logo {
+    margin-bottom: 24px;
+}
+}
+
+@media (min-width: 1336px) {
+.footer-form-nav-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .footer-form {            
+        margin-bottom: 40px;   
+    }
+}
+
+@media (min-width: 1336px) {
+    .footer-form {
+        margin-bottom: 24px;
+        max-width: 595px;        
+}
+}
+
+.footer-form-label {
+    font-family: "Saraboon", sans-serif ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;    
+}
+
+@media (min-width: 768px) {
+    .footer-form-label {
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-form-input-button {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+
+.footer-form-input {
+    margin-bottom: 16px;
+    height: 42px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgba(13, 11, 10, 0.05);
+    min-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .footer-form-input {
+        height: 46px;
+        min-width: 546px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1336px) {
+    .footer-form-input {
+            height: 42px;
+            min-width: 501px;
+}
+}
+
+.footer-form-input::placeholder {
+    color: rgba(13, 11, 10, 0.6);
+    padding-left: 12px;
+    
+}
+
+
+.footer-button {
+    font-family: "Saraboon", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    min-width: 100%;
+    margin-bottom: 12px;
+    background-color: rgba(13, 11, 10, 0.05);
+    border: none;
+    border-radius: 100px;
+    height: 48px;
+}
+
+@media (min-width: 768px) {
+    .footer-button {
+        height: 46px;
+        min-width: 78px;
+        margin-bottom: 0;
+    }
+}
+
+
+.footer-form-span {
+    font-family: "Saraboon", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+.footer-nav-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+}
+
+@media (min-width: 1336px) {
+    .footer-nav-social {
+        gap: 40px;
+        margin-bottom: 0;
+    }
+}
+
+.footer-nav {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .footer-nav {
+        min-width: 300px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1336px) {
+    .footer-nav {
+        margin-bottom: 0;
+        min-width: 165px;
+}
+}
+
+.footer-nav-heading {
+    font-family: "Saraboon", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-nav-item {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;    
+    }
+
+
+
+.footer-social {
+    margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+    .footer-social {
+        min-width: 300px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1336px) {
+    .footer-social {        
+        min-width: 165px;
+        margin-bottom: 0;
+    }
+}
+
+.footer-social-heading {
+    font-family: "Saraboon", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 21px;
+}
+
+.footer-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: auto;
+}
+
+.footer-social-item {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    }
+
+.footer-social-link {
+    fill: #0D0B0A;
+    position: relative;
+    }
+
+.footer-social-icon {
+    position: absolute;  
+}
+
+.footer-social-name {
+    margin-left: 36px;
+}
+
+.footer-copyright {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
