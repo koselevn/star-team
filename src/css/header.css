@@ -10,6 +10,17 @@
     align-items: center;
 }
 
+.header-burger-button {
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: none;
+}
+
 .header-list-adn-logo-div {
     display: flex;
     gap: 221px;
@@ -88,3 +99,4 @@
     
     .header-list-li-a {}
 }
+
