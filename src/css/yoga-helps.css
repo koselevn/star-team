@@ -4,6 +4,7 @@
     background-color: #dfebeb;
     padding-top: 64px;
     padding-bottom: 64px;
+    min-width: 320px;
 }
 
 
@@ -70,7 +71,7 @@
     border-radius: 100px;
     
     
-    height: 46px;
+    
     background-color: #c2d9fc;
 }
 
