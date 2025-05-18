@@ -1,12 +1,15 @@
 
    
 .yoga-container {
-    background-color: #dfebeb;
+    
     padding-top: 64px;
     padding-bottom: 64px;
     min-width: 320px;
 }
 
+.yoga-section {
+    background-color: #dfebeb;
+}
 
 .yoga-section-heading {
     
@@ -77,11 +80,12 @@
 
 @media screen and (min-width: 768px) {
     .yoga-container {
-    background-color: #f2fafa;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
+.yoga-section {
+    background-color: #f2fafa;
+    }
     .yoga-section-heading {
         margin-bottom: 24px;
     }
@@ -111,17 +115,17 @@
        
     .yoga-join-link {
         width: 110px;
-        
     }
-    }
+}
 
 @media screen and (min-width: 1336px) {
     .yoga-container {
-        background-color: #f2fafa;
-        padding-top: 112px;
-        padding-bottom: 112px;
+       padding-top: 112px;
+       padding-bottom: 112px;
     }
-
+     .yoga-section {
+         background-color: #f2fafa;
+     }
     .yoga-section-heading {
         font-size: 52px;
     }
