@@ -7,9 +7,7 @@
 .footer-container {
     background-color: #F8FBFE;
     border-radius: 16px;
-    padding: 32px;
-    width: 100%;
-}
+    }
 
 /* .container {}
  */
@@ -30,32 +28,76 @@
     font-family: "Saraboon", sans-serif ;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1.6;
+    line-height: 1.6;    
 }
 
 .footer-form-input {}
 
+.footer-form-input::placeholder {color: rgba (13 11 10 0.6);
+}
+
+
 .footer-button {
     font-family: "Saraboon", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    min-width: 279px;
 }
+
+.footer-form-span {
+    font-family: "Saraboon", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
 
 .footer-nav {}
 
-.footer-nav-heading {}
+.footer-nav-heading {
+    font-family: "Saraboon", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+}
 
 .footer-nav-list {}
 
-.footer-nav-item {}
+.footer-nav-item {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    }
+
+.footer-social-link::before {}
 
 .footer-social {}
 
-.footer-social-heading {}
+.footer-social-heading {
+    font-family: "Saraboon", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+}
 
 .footer-social-list {}
 
-.footer-social-item {}
+.footer-social-item {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
 
-.footer-copyright {}
+.footer-social-link {
+    fill: #0D0B0A;
+    }
+
+.footer-copyright {
+    font-family: "Saraboon", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+}
