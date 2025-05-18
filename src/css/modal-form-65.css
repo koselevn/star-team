@@ -1,0 +1,9 @@
+.modal-65-wrapper {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-65-wrapper.modal-visible {
+  opacity: 1;
+  pointer-events: auto;
+}
