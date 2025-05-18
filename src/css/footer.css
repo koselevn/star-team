@@ -253,11 +253,20 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
-}
+    }
 
 .footer-social-link {
     fill: #0D0B0A;
+    position: relative;
     }
+
+.footer-social-icon {
+    position: absolute;  
+}
+
+.footer-social-name {
+    margin-left: 36px;
+}
 
 .footer-copyright {
     font-family: "Saraboon", sans-serif;
