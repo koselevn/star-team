@@ -9,7 +9,7 @@
 }
 
 .testimonials__title > h2 {
-  font-family: var(--second-family);
+  font-family: 'Cabin', sans-serif;
   font-weight: 400;
   font-size: 52px;
   line-height: 120%;
@@ -19,7 +19,7 @@
 }
 
 .testimonials__title > p {
-  font-family: var(--font-family);
+  font-family: 'Sarabun', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
@@ -47,7 +47,7 @@
 }
 
 .testimonial-card > p {
-  font-family: var(--font-family);
+  font-family: 'Sarabun', sans-serif;
   font-weight: 400;
   font-size: 22px;
   line-height: 160%;
@@ -71,7 +71,7 @@
 }
 
 .testimonial-person-information > h3 {
-  font-family: var(--font-family);
+  font-family: 'Sarabun', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 160%;
@@ -80,7 +80,7 @@
 }
 
 .testimonial-person-information > p {
-  font-family: var(--third-family);
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
