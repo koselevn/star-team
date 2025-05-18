@@ -31,7 +31,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 48px;
 }
 
 .program-image {
@@ -81,7 +80,7 @@
     display: none;
 }
 
-/* tablet style */
+
 @media (min-width: 768px) {
     .programs {
         padding-top: 40px;
@@ -98,12 +97,12 @@
     }
 
     .text {
-        margin-bottom: 40px;
         font-size: 18px;
     }
 
     .program-image {
         margin-top: 16px;
+        margin-bottom: 16px;
     }
 
     .program-list {
@@ -131,12 +130,61 @@
     }
 
     .join-btn {
-        margin-bottom: 40px;
+        margin-top: 61px;
         width: 110px;
 
     }
 
     .span-now {
         display: contents;
+    }
+
+    .box {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 1336px) {
+    .programs {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    .title {
+        font-size: 52px;
+    }
+
+    .program-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .program-card.full-width {
+        grid-column: 3 / -1;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 265px;
+        padding-right: 265px;
+        margin-bottom: 40px;
+    }
+
+    .program-title {
+        font-size: 36px;
+        margin-bottom: 24px;
+    }
+
+    .program-image {
+        margin-bottom: 32px;
+        width: 421px;
+        height: 240px;
+    }
+
+    .join-btn {
+        cursor: pointer;
+        margin-top: 40px;
     }
 }
