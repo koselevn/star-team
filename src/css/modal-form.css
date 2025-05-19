@@ -5,17 +5,17 @@
   width: 100%;
   height: 100%;
   z-index: 99;
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 0;
+  pointer-events: none;
   padding: 0 16px;
   padding-top: 64px;
   background-color: #F2F7FE;
 }
 
-/* .modal-10-wrapper.modal-visible {
+.modal-10-wrapper.modal-visible {
   pointer-events: auto;
   opacity: 1;
-} */
+}
 
 .modal-10 {
   text-transform: capitalize;
@@ -187,5 +187,11 @@ p:nth-child(4) {
 
   p:nth-child(4) {
     font-size: 36px;
+  }
+
+  .modal-close-button {
+    display: block;
+    top: 16px;
+    right: 16px;
   }
 }
