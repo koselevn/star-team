@@ -14,7 +14,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Yoga Classes</title>
     <script type="module" crossorigin src="/star-team/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/star-team/assets/index-CyehJfQu.css">
+    <link rel="stylesheet" crossorigin href="/star-team/assets/index-D04-yv2J.css">
   </head>
   <body>
     <!--Header-->
@@ -30,7 +30,7 @@
                 <li class="header-list-li"><a class="header-list-li-a header-list-li-a-first" href="#heading">Yoga Classes</a></li>
                 <li class="header-list-li"><a class="header-list-li-a" href="#team">Team</a></li>
                 <li class="header-list-li"><a class="header-list-li-a" href="#testimonials">Testimonials</a></li>
-                <li class="header-list-li"><a class="header-list-li-a" href="#prising">Pricing</a></li>
+                <li class="header-list-li"><a class="header-list-li-a" href="#pricing">Pricing</a></li>
                 <li class="header-list-li"><a class="header-list-li-a" href="#footer">Contacts</a></li>
             </ul>
             <svg class="heaer-logo-svg" width="83" height="24">
@@ -43,7 +43,7 @@
 </header>
     <main>
       <!-- Loads the specified .html file -->
-      <section class="heading-section">
+      <section class="heading-section" id="heading">
     <div class="container-fluid">
         <picture>
             <source srcset="/star-team/assets/heading-desk-C5vcaGdp.jpg 1x, /star-team/assets/heading-desk@2x-DHo119Rg.jpg 2x" 
@@ -59,14 +59,14 @@
             <p class="heading-description">Discover the harmony of mind and body through our expertly designed yoga programs. Join a community dedicated to
             wellness and personal growth.</p>
             <ul class="heading-btn-list">
-                <li class="heading-btn-list-item"><a class="heading-btn-list-item-link" href="">Join</a></li>
-                <li class="heading-btn-list-item-2"><a class="heading-btn-list-item-link" href="">Learn More</a></li>
+                <li class="heading-btn-list-item"><a class="heading-btn-list-item-link" href="#pricing">Join</a></li>
+                <li class="heading-btn-list-item-2"><a class="heading-btn-list-item-link" href="#gallery">Learn More</a></li>
             </ul>
         </div>
     </div>
 </section>
       <section class="programs" id="programs">
-    <div class="container">
+    <div class="container programs-container">
         <div class="box">
             <h3 class="subheader">Explore</h3>
             <h1 class="title">Discover Our Most Popular Yoga Programs</h1>
@@ -538,7 +538,7 @@
 
 
 </section>
-      <section class="testimonials">
+      <section class="testimonials" id="testimonials">
   <div class="container">
     <div class="testimonials__title">
       <h2>Testimonials</h2>
@@ -804,7 +804,7 @@
 
     </main>
     <!--Footer-->
-    <footer class="footer-content">
+    <footer class="footer-content" id="footer">
     <div class="container footer-container">
         <div class="footer-form-nav-social">
             <div class="footer-logo-form">
@@ -823,9 +823,8 @@
                         events.
                     </label>
                     <div class="footer-form-input-button">
-                        <input class="footer-form-input" id="footer-form-input" type="email" name="email"
-                            placeholder="Your email here" pattern email="
-                                        ([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
+                        <input class="footer-form-input" id="footer-form-input" type="text" name="email" placeholder="Your email here"
+                            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
                         <button class="footer-button" type="submit">Join</button>
                     </div>
                     <span class="footer-form-span">By subscribing, you consent to our Privacy Policy and agree to
@@ -838,16 +837,16 @@
                     <h3 class="footer-nav-heading">Quick Links</h3>
                     <ul class="footer-nav-list">
                         <li class="footer-nav-item">
-                            <a href="href=#yoga_classes">Yoga Classes</a>
+                            <a href="#yoga-helps">Yoga Classes</a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="href=#team">Team</a>
+                            <a href="team">Team</a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="href=#pricing">Pricing</a>
+                            <a href="#pricing">Pricing</a>
                         </li>
                         <li class="footer-nav-item">
-                            <a href="href=#contacts">Contacts</a>
+                            <a href="#footer">Contacts</a>
                         </li>
                     </ul>
                 </div>
