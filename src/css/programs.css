@@ -4,6 +4,10 @@
     padding-bottom: 64px;
 }
 
+.programs-container {
+    text-align: center;
+}
+
 .subheader {
     font-family: "Cabin", sans-serif;
     font-weight: 600;
