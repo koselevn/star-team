@@ -106,15 +106,16 @@
 
 
 .team-image {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   border-radius: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 1335px) {
   .team-image {
     width: 340px;
-    height: 100%;
-    object-fit: cover;
+    /* height: 100%;
+    object-fit: cover; */
+    height: 395px;
   }
 }
 
@@ -122,7 +123,7 @@
   .team-image {
     width: 421px;
     height: 395px;
-    object-fit: contain;
+    /* object-fit: contain; */
   }
 }
 
