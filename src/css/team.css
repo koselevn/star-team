@@ -1,29 +1,3 @@
-/* Mobile styles */
-.container {
-    max-width: 375px;
-    padding: 0 16px;
-    margin: 0 auto;
-}
-
-
-/* Tablet styles */
-@media screen and (min-width:768px) {
- .container {
-    max-width: 768px;
-    padding-left: 0 32px;
- }
-}
-
-
-/* Desktop styles */
-@media screen and (min-width:1336px) {
- .container {
-    max-width: 1336px;
-    padding: 0 12px;
- }
-}
-
-
 /* Section team */
 .team {
     background-color: #f2fafa;
