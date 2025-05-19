@@ -4,6 +4,7 @@
 
 .navbar-overlay {
   position: fixed;
+  transform: translateX(-101%);
   top: 0;
   right: 0;
   width: 100%;
@@ -13,12 +14,16 @@
   z-index: 99;
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 
+    opacity 0.3s cubic-bezier(0.075, 0.82, 0.165, 1),
+    transform .3s cubic-bezier(0.4, 0, 0.2, 1)
+  ;
 }
 
 .navbar-overlay.is-visible {
   opacity: 1;
   pointer-events: auto;
+  transform: translateX(0);
 }
 
 .close-navbar-wrapper {
@@ -43,6 +48,7 @@
   height: 100%;
   min-width: 208px;
   margin: 0 auto;
+  max-width: 704px;
 }
 
 @media (max-width: 767px) {
