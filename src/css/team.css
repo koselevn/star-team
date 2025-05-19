@@ -114,9 +114,6 @@
    }
 }
 
-.team-nav-item {
- width: 340px;
-}
 
 @media screen and (min-width: 768px) {
   .team-nav-item {
@@ -135,16 +132,14 @@
 
 
 .team-image {
-  display: block;
-  width: 100%;
-  height: auto;
+  margin: 0 auto;
   border-radius: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 1335px) {
   .team-image {
     width: 340px;
-    height: 395px;
+    height: 100%;
     object-fit: cover;
   }
 }
