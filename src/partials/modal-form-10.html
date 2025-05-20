@@ -1,0 +1,53 @@
+<div class="modal-10-wrapper">
+  <div class="modal-10">
+    <button class="modal-close-button">
+      <svg class="" width="32" height="32">
+        <use href="../img/modal/modal.svg#icon-close-modal"></use>
+      </svg>
+    </button>
+
+    <h3 class="modal-info">Join now!</h3>
+    <p class="modal-info">One session</p>
+    <p class="modal-info">$10</p>
+
+    <form class="modal-form">
+      <label class="modal-label">
+        Your name
+        <input
+          type="text"
+          name="user_name" 
+          class="modal-input user-name"
+          placeholder="Liam"
+          required
+          autofocus
+        >
+      </label>
+
+      <div class="input-row-wrapper">
+        <label class="modal-label">
+          Email
+          <input
+            type="email"
+            name="user-mail"
+            class="modal-input user-mail"
+            placeholder="hello@yogabloom.com"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,})\.([A-z]{2,8})"
+          >
+        </label>
+        <label class="modal-label">
+          Phone number
+          <input
+            type="tel"
+            name="user-tel"
+            class="modal-input user-tel"
+            placeholder="+380 (95) 123 12 12"
+            required
+          >
+        </label>
+      </div>
+
+      <button type="submit" class="checkout-button">Go to checkout</button>
+    </form>
+  </div>
+</div>

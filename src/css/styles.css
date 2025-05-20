@@ -23,5 +23,8 @@
 
 /* Modals style */
 @import url('./modal-form.css');
+@import url('./modal-form-65.css');
+@import url('./modal-form-80.css');
+
 /* Navbar */
 @import url('./navbar.css');
