@@ -78,12 +78,19 @@
     background-color: #c2d9fc;
 }
 
+.s-now {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .yoga-container {
     padding-top: 40px;
     padding-bottom: 40px;
-}
-.yoga-section {
+    }
+    .s-now {
+        display: inline-block;   
+    }
+    .yoga-section {
     background-color: #f2fafa;
     }
     .yoga-section-heading {
