@@ -26,6 +26,11 @@
   transform: translateX(0);
 }
 
+.navbar-overlay.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .close-navbar-wrapper {
   height: 48px;
   width: 48px;
