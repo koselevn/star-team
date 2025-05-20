@@ -3,9 +3,9 @@ html {
 }
 
 body {
+  font-family: 'Sarabun', sans-serif;
   color: #0d0b0a;
   background-color: #f2fafa;
 
   overflow-x: hidden;
 }
-
