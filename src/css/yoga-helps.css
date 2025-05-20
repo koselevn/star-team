@@ -1,0 +1,152 @@
+
+   
+.yoga-container {
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+    min-width: 320px;
+}
+
+.yoga-section {
+    background-color: #dfebeb;
+}
+
+.yoga-section-heading {
+    
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    
+    margin-bottom: 20px;
+
+}
+
+.yoga-reasons-text, .yoga-helps-text {
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0d0b0a;
+}
+    
+.yoga-heading-three {
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+}
+
+.yoga-bonuses-list {
+    display: flex;
+    
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 48px;
+}
+.yoga-join-link {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    text-align: center;
+    margin: 0 auto;
+
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    
+    
+    
+    background-color: #c2d9fc;
+}
+
+.s-now {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .yoga-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .s-now {
+        display: inline-block;   
+    }
+    .yoga-section {
+    background-color: #f2fafa;
+    }
+    .yoga-section-heading {
+        margin-bottom: 24px;
+    }
+
+    .yoga-reasons-text {
+        font-size: 18px;
+        }
+    .heading-plus-text {
+        margin-bottom: 40px;
+    }
+
+    .yoga-bonuses-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 46.5px 24px;
+        
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .yoga-heading-three {
+        margin-bottom: 0px;}
+
+    .yoga-list-item {
+        width: calc((100% - 24px) / 2);
+        
+    }
+       
+    .yoga-join-link {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 1336px) {
+    .yoga-container {
+       padding-top: 112px;
+       padding-bottom: 112px;
+    }
+     .yoga-section {
+         background-color: #f2fafa;
+     }
+    .yoga-section-heading {
+        font-size: 52px;
+    }
+
+    .yoga-bonuses-list {
+        flex-direction: row;
+        gap: 24px;
+        }
+    
+    .yoga-heading-three {
+        margin-bottom: 24px;
+        font-size: 28px;
+    }
+        
+    .yoga-list-item {
+        width: calc((100% - 72px) / 4);}
+}
