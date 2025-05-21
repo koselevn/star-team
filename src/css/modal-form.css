@@ -172,6 +172,12 @@
     background: rgba(182, 181, 181, 0.25);
   }
 
+  .modal-close-button {
+    display: block;
+    top: 16px;
+    right: 16px;
+  }
+
   .modal-10 {
     width: 768px;
     min-height: 573px;
