@@ -10,13 +10,11 @@
   padding: 0 16px;
   padding-top: 64px;
   background-color: #dfebeb;
-  
 }
 
 .modal-10-wrapper.modal-visible {
   pointer-events: auto;
   opacity: 1;
-  background: rgba(0, 0, 0, 0.25);
 }
 
 .modal-10 {
@@ -41,22 +39,22 @@
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.01em;
-  color: #0D0B0A;
+  color: #0d0b0a;
 }
 
-h3:nth-child(2) {
+.modal-10-wrapper h3:nth-child(2) {
   font-size: 40px;
   line-height: 1.2;
   margin-bottom: 32px;
 }
 
-p:nth-child(3) {
+.modal-10-wrapper p:nth-child(3) {
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 8px;
 }
 
-p:nth-child(4) {
+.modal-10-wrapper p:nth-child(4) {
   font-size: 44px;
   line-height: 1.2;
   margin-bottom: 32px;
@@ -68,14 +66,16 @@ p:nth-child(4) {
 
 .modal-label {
   line-height: 1.6;
-  color: #0D0B0A;
+  color: #0d0b0a;
   margin-bottom: 24px;
   display: block;
-  transition: background-color 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+  transition: background-color 0.3s ease, padding 0.3s ease,
+    border-radius 0.3s ease;
 }
 
 .modal-input {
   display: block;
+  background-color: rgba(13, 11, 10, 0.05);
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 12px;
@@ -87,7 +87,7 @@ p:nth-child(4) {
 
 .modal-input::placeholder {
   line-height: 1.6;
-  color: rgba(13, 11, 10, 0.6)
+  color: rgba(13, 11, 10, 0.6);
 }
 
 .modal-label:focus-within {
@@ -121,7 +121,6 @@ p:nth-child(4) {
   .modal-10-wrapper {
     /* background-color: rgb(134, 133, 132); */
     background: rgba(134, 133, 132, 0.25);
-    
   }
 
   .modal-10 {
@@ -140,27 +139,27 @@ p:nth-child(4) {
     display: none;
   }
 
-  .input-row-wrapper {
+  .modal-10-wrapper .input-row-wrapper {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    gap: 24px;
   }
 
-  .input-row-wrapper > label {
+  .modal-10-wrapperv .input-row-wrapper > label {
     flex-basis: calc(100% / 2 - 12px);
   }
 
-  h3:nth-child(2) {
+  .modal-10-wrapper h3:nth-child(2) {
     margin-bottom: 24px;
   }
 
-  p:nth-child(4) {
+  .modal-10-wrapper p:nth-child(4) {
     font-size: 44px;
     line-height: 1.2;
     margin-bottom: 24px;
   }
 
-  .checkout-button {
+  .modal-10-wrapper .checkout-button {
     width: 155px;
     padding: 0;
     height: 46px;
@@ -179,21 +178,21 @@ p:nth-child(4) {
     padding: 64px;
   }
 
-  h3:nth-child(2) {
+  .modal-10-wrapper h3:nth-child(2) {
     font-size: 52px;
     line-height: 1.2;
     margin-bottom: 24px;
   }
 
-  p:nth-child(3) {
+  .modal-10-wrapper p:nth-child(3) {
     font-size: 22px;
   }
 
-  p:nth-child(4) {
+  .modal-10-wrapper p:nth-child(4) {
     font-size: 36px;
   }
 
-  .modal-close-button {
+  .modal-10-wrapper.modal-close-button {
     display: block;
     top: 16px;
     right: 16px;

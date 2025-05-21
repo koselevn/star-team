@@ -1,189 +1,195 @@
 .programs {
-    background-color: #DFEBEB;
-    padding-top: 64px;
-    padding-bottom: 64px;
+  background-color: #dfebeb;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .programs-container {
-    text-align: center;
+  text-align: center;
 }
 
 .subheader {
-    font-family: "Cabin", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 12px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 
 .title {
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.2;
-    letter-spacing: 0.01em;
-    margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
 }
 
 .text {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 48px;
 }
-
+.program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
 .program-image {
-    border-radius: 16px;
-    margin-top: 48px;
-    margin-bottom: 24px;
+  border-radius: 16px;
 }
 
 .program-title {
-    font-family: "Cabin", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-    letter-spacing: 0.01em;
-    margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+  margin-top: 24px;
 }
 
 .program-text {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 .join-btn {
-    font-family: "Sarabun", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    border: 1px solid #C2D9FC;
-    background-color: #C2D9FC;
-    border-radius: 100px;
-    width: 343px;
-    height: 46px;
-    margin-top: 48px;
-    margin-bottom: 0;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: #000;
-    padding: 0;
-    box-sizing: border-box;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 1px solid #c2d9fc;
+  background-color: #c2d9fc;
+  border-radius: 100px;
+  max-width: 343px;
+  height: 46px;
+  margin-top: 48px;
+  margin-bottom: 0;
 
+  text-decoration: none;
+  color: #000;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.join-btn:hover,
+.join-btn:focus {
+  background-color: #b1cef9;
+}
 .span-now {
-    display: none;
+  display: none;
 }
-
 
 @media (min-width: 768px) {
-    .programs {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #F2FAFA;
-    }
+  .programs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f2fafa;
+  }
 
-    .subheader {
-        margin-bottom: 16px;
-    }
+  .subheader {
+    margin-bottom: 16px;
+  }
 
-    .title {
-        margin-bottom: 24px;
-    }
+  .title {
+    margin-bottom: 24px;
+  }
 
-    .text {
-        font-size: 18px;
-    }
+  .text {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
 
-    .program-image {
-        margin-top: 16px;
-        margin-bottom: 16px;
-    }
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    list-style: none;
+    justify-items: center;
+  }
 
-    .program-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
-        list-style: none;
-        justify-items: center;
-    }
+  .program-item {
+    display: contents;
+  }
 
-    .program-item {
-        display: contents;
-    }
+  .program-card.full-width {
+    grid-column: 1 / -1;
+  }
 
-    .program-card.full-width {
-        grid-column: 1 / -1;
-    }
+  .program-span {
+    display: none;
+  }
 
-    .program-span {
-        display: none;
-    }
+  .program-title {
+    margin: auto;
+    margin-top: 16px;
+  }
 
-    .program-title {
-        margin: auto;
-    }
+  .join-btn {
+    margin-top: 61px;
+    width: 110px;
+  }
 
-    .join-btn {
-        margin-top: 61px;
-        width: 110px;
+  .span-now {
+    display: contents;
+  }
 
-    }
-
-    .span-now {
-        display: contents;
-    }
-
-    .box {
-        margin-bottom: 40px;
-    }
+  .box {
+    margin-bottom: 40px;
+  }
 }
 
 @media (min-width: 1336px) {
-    .programs {
-        padding-top: 112px;
-        padding-bottom: 112px;
-    }
+  .programs {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
 
-    .title {
-        font-size: 52px;
-    }
+  .title {
+    font-size: 52px;
+  }
 
-    .program-list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .program-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-    .program-card.full-width {
-        grid-column: 3 / -1;
-    }
+  .program-card.full-width {
+    grid-column: 3 / -1;
+  }
 
-    .box {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 265px;
-        padding-right: 265px;
-        margin-bottom: 40px;
-    }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 265px;
+    padding-right: 265px;
+    margin-bottom: 40px;
+  }
 
-    .program-title {
-        font-size: 36px;
-        margin-bottom: 24px;
-    }
+  .program-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+    margin-top: 32px;
+  }
 
-    .program-image {
-        margin-bottom: 32px;
-        width: 421px;
-        height: 240px;
-    }
+  .program-image {
+    width: 421px;
+    height: 240px;
+  }
 
-    .join-btn {
-        cursor: pointer;
-        margin-top: 40px;
-    }
+  .join-btn {
+    cursor: pointer;
+    margin-top: 40px;
+  }
 }
